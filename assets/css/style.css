@@ -1,0 +1,90 @@
+
+
+ body {
+    margin: auto; 
+    color: #777;
+    width: 960px;
+    background-image:  url(../images/white-waves.png); 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+/* Reginald T. Battle */
+  header { overflow:hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    
+    
+  }
+    #left{
+        float: left;
+        background-color: #4aaaa5;
+        width: 320px;
+        color: white;
+        padding: 20px;
+        font-size: 40px; 
+
+ }
+/* Link for other pages*/
+
+    #right{
+        clear: auto;
+        
+
+    }
+  ul {
+    list-style-type: none;
+    padding: 30px 30px 40px ;
+    overflow: hidden;
+    background-color: white;
+    border: black;
+    
+  }
+  
+  li {
+    float: right;
+    text-align: right;
+   
+  }
+  
+  li a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+   
+    
+  }
+
+  /*ABOUT ME */
+
+  h1 {
+      color: #4aaaa5;
+      font-size: 40px;
+  }
+ article {
+     background-color: white;
+     padding-left: 20px;
+     padding-right: 20px;
+     margin-top: 30px;
+     
+     
+ }
+   img {
+      float: left ;
+      padding-right: 10px
+   }
+    
+  }
+
+  h1 {
+      color:#4aaaa5;
+     
+
+  }
+  p {
+      line-height: 2;
+     overflow: visible;
+     padding-right: 10px;
+     
+  } 
+  
+
