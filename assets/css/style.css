@@ -7,7 +7,7 @@
     background-image:  url(../images/white-waves.png); 
     font-family: Arial, Helvetica, sans-serif;
   }
-/* Reginald T. Battle */
+/* Reggie Battle */
   header { overflow:hidden;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -18,7 +18,7 @@
     #left{
         float: left;
         background-color: #4aaaa5;
-        width: 320px;
+        width: 300px;
         color: white;
         padding: 20px;
         font-size: 40px; 
@@ -27,7 +27,7 @@
 /* Link for other pages*/
 
     #right{
-        clear: auto;
+                clear: auto;
         
 
     }
@@ -58,8 +58,11 @@
 
   h1 {
       color: #4aaaa5;
-      font-size: 40px;
+      font-size: 30px;
+      padding-top: 20px;
   }
+ 
+      
  article {
      background-color: white;
      padding-left: 20px;
@@ -68,18 +71,19 @@
      
      
  }
+
+  /*Image */
    img {
       float: left ;
-      padding-right: 10px
+      padding-right: 10px;
+      padding-top: 20px;
    }
     
-  }
+  
 
-  h1 {
-      color:#4aaaa5;
-     
+   
 
-  }
+  
   p {
       line-height: 2;
      overflow: visible;
