@@ -1,94 +1,237 @@
 
-
+ 
  body {
-    margin: auto; 
+    margin: 0px;
     color: #777;
-    width: 960px;
     background-image:  url(../images/white-waves.png); 
-    font-family: Arial, Helvetica, sans-serif;
-  }
-/* Reggie Battle */
-  header { overflow:hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
+    background-repeat: repeat;
+  	font-family: Arial;
+  	font-size: 18px;
+    line-height: 25px;
+ }
+ * {
+  box-sizing: border-box;
+}
+ 
+
+/* Main Banner */
+header { 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding-left: 320px;
+  
+
+}
+    
+.basic {
+  width: 960px;
+	margin: 0 ;
+	clear: both;
+	overflow: hidden;
+}
     
     
     
-  }
-    #left{
+    
+    
+  
+#logo {
         float: left;
         background-color: #4aaaa5;
-        width: 300px;
-        color: white;
-        padding: 20px;
-        font-size: 40px; 
-
+        color:#fff;
+        padding: 0, 40px  ;
+        font-size: 30px; 
+        display: block;
+        font-family: "Georgia";
+        font-size: 30px;
+        line-height: 90px;
+        font-weight: bold;
+        text-decoration: none;
+      
+        
+        
+        
  }
 /* Link for other pages*/
 
-    #right{
-                clear: auto;
-        
-
+  nav{
+     float: right;
+     
     }
-  ul {
-    list-style-type: none;
-    padding: 30px 30px 40px ;
-    overflow: hidden;
-    background-color: white;
-    border: black;
+
+   
+
+  
+  nav ul {
+    display: block;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 90px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #999;
+    margin-left: 10px;
+    line-height: 22px;
+    padding-left: 10px;
+    background-color: white
     
   }
-  
-  li {
-    float: right;
-    text-align: right;
-   
-  }
-  
+    
   li a {
     color: black;
-    padding: 20px 20px;
+    padding: 10px 10px;
     text-decoration: none;
    
     
-  }
-
-  /*ABOUT ME */
-
-  h1 {
-      color: #4aaaa5;
-      font-size: 30px;
-      padding-top: 20px;
-  }
- 
-      
- article {
-     background-color: white;
-     padding-left: 20px;
-     padding-right: 20px;
-     margin-top: 30px;
-     
-     
- }
-
-  /*Image */
-   img {
-      float: left ;
-      padding-right: 10px;
-      padding-top: 20px;
-   }
     
-  
-
+  }
+  #box {
+    float:left;
+    clear: none;
    
 
+  }
+  .module {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    
+   
+    
+  }
+
+  h1, h2 {
+      color: #4aaaa5;
+      font-weight: bold;
+      text-align: left;
+      font-family: "Georgia";
+    }
+
+  
+
+    h1{
+      font-size: 30px;
+     background-color: white;
+      
+        }
+
+    h2{
+      font-size: 22px;
+  	    }
+ 
+    h3 {
+      position: absolute;
+      bottom: 20px;
+      width: 90%;
+      padding: 15px;
+      margin-bottom: 0;
+      font-weight: 300;
+      line-height: 30px;
+      color: #fff;
+      text-align: center;
+      background: #4aaaa5;
+      border-bottom: 0;
+      font-family: "Georgia";
+      font-size: 22px;
+    }
+  
+  /*Image */
+
+  #container {
+  
+    margin-left: 320px;
+    width: 60%;
+  }
+   .king {
+      float: left;
+      padding-right: 30px;
+      
+       }
+ 
   
   p {
-      line-height: 2;
+     line-height: 2;
      overflow: visible;
      padding-right: 10px;
+     font-size: 20px
      
   } 
   
 
+
+  footer {
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      background-color: #777;
+      border-top-width: 10px;
+      border-top-color: #4aaaa5;
+      border-top-style:  solid;
+      padding: 30px 30px 0px;
+      margin-top: 80px;
+      clear: both; 
+  }
+
+
+  
+   
+
+ 
+  
+
+  .gallery {
+      position: relative;
+      float: left;
+      width: 274px;
+      margin: 30px 0 25px;
+      overflow: auto;
+      
+    }
+   
+     
+    
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    margin: 0;
+    padding: 0;
+    border-style: none;  }
+  
+  div.gallery img {
+  width: 100%;
+  border: 0px;
+  opacity: 0.8;
+
+
+}
+         
+img{
+  padding-right: 30px;
+   
+}
+
+ 
+
+ /*contacts */
+
+  
+  label,
+  input[type=text] 
+  {
+    width: 900px;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=msgtext] {
+    width: 900px;
+    padding: 12px 20px 200px;
+    box-sizing: border-box;
+  }
